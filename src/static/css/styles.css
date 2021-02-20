@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro;600&display=swap");
+.my-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid white; */
+}
+
+@media (min-width: 1600px) {
+  .my-container {
+    max-width: 1595px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .my-container {
+    max-width: 1880px;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-container {
+    width: 760px;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-container {
+    width: 980px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-container {
+    width: 1190px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .my-container {
+    width: 1380px;
+  }
+}
+
+.white-text {
+  color: rgb(235, 235, 235) !important;
+}
+
+a {
+  /* color: white; */
+  text-decoration: none;
+}
+a:focus,
+a:active {
+  outline: none !important;
+  box-shadow: none;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* texts */
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.15rem;
+  color: #005f25 !important;
+}
+
+.heading-1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  font-size: 3.5rem;
+}
+
+.small-text-bold {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  font-size: 1.1rem;
+}
+
+.small-text {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  color: #e2e2e2;
+}
+
+.orange-text {
+  color: #ee6b2a;
+}

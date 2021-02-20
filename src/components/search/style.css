@@ -1,0 +1,8 @@
+.grid-container {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 25% 25% 25% 15%;
+  grid-template-rows: 50% 50%;
+  column-gap: 35px;
+  row-gap: 15px;
+}
